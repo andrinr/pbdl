@@ -7,7 +7,7 @@ The project is grouped into different notebooks.
 - ``preliminaries.ipynb`` A quick recap of different nabla operators and their numerical applications using finite differences.
 - ``I_verlet.ipynb`` A manually differentiated ODE integration method used to solve for initial conditions.
 - ``II_autodiff.ipynb`` The same thing but with autodiff and more complex forces.
-- ``III_thrust_vector.ipynb`` Optimizing the thrust vector control of a super simplified rocket for landing.
+- ``III_thrust_vector.ipynb`` Optimizing the thrust vector control of a super simplified rocket model.
 - ``IV_hyperbolic.ipynb`` Derivation Advection and Lax Wendroff schemes, differentiable mac cormack for solving for the initial condition of the burgers equation.
 - ``V_waves.ipynb`` Differentiable mac cormack in 2D for the wave equation.
 - ``VI_stokes_incompressible.ipynb`` Forward implemenation compressible NS equations using Mac Cormack. Attempt at inverse case, unsuccessfull.
