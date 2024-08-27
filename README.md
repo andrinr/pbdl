@@ -5,7 +5,7 @@ I created this repo to understand and apply differentiable physics in the contex
 The project is grouped into different notebooks. 
 
 - ``preliminaries.ipynb`` A quick recap of different nabla operators and their numerical applications using finite differences.
-- ``I_verlet.ipynb`` A manually differentiated ODE integrated used to find the initial conditions.
+- ``I_verlet.ipynb`` A manually differentiated ODE integration method used to solve for initial conditions.
 - ``II_autodiff.ipynb`` The same thing but with autodiff and more complex forces.
 - ``III_thrust_vector.ipynb`` Optimizing the thrust vector control of a super simplified rocket for landing.
 - ``IV_hyperbolic.ipynb`` Derivation Advection and Lax Wendroff schemes, differentiable mac cormack for solving for the initial condition of the burgers equation.
