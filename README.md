@@ -14,6 +14,8 @@ The project is grouped into different notebooks.
 - ``VII_stokes_inc_man.ipynb`` Attempt to intuitively derivae a solver for NS equations, only partially finished.
 - ```VIII_stokes_inc_vort_stream.ipynb```Incompressible NS equations using the vortex stream method, only partially finished.
 
+## Solving for initial conditions with a verlet integrator
+
 ![alt text](img/trajectories_attractors.png)
 
 In this setup a differentibale version of the verlet integration method was used to find an optimal initial position and velocity which moves an object true a force field created by several attractors to a target position.
