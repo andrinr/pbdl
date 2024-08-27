@@ -13,7 +13,7 @@ The project is grouped into different notebooks.
 - ``VI_stokes_incompressible.ipynb`` Forward implemenation compressible NS equations using Mac Cormack. Attempt at inverse case, unsuccessfull.
 - ``VII_stokes_inc_man.ipynb`` Attempt to intuitively derivae a solver for NS equations, only partially finished.
 - ```VIII_stokes_inc_vort_stream.ipynb```Incompressible NS equations using the vortex stream method, only partially finished.
-- 
+
 ![alt text](img/trajectories_attractors.png)
 
 In this setup a differentibale version of the verlet integration method was used to find an optimal initial position and velocity which moves an object true a force field created by several attractors to a target position.
