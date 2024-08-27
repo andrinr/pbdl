@@ -11,7 +11,7 @@ The project is grouped into different notebooks.
 - ``IV_hyperbolic.ipynb`` Derivation Advection and Lax Wendroff schemes, differentiable mac cormack for solving for the initial condition of the burgers equation.
 - ``V_waves.ipynb`` Differentiable mac cormack in 2D for the wave equation.
 - ``VI_stokes_incompressible.ipynb`` Forward implemenation compressible NS equations using Mac Cormack. Attempt at inverse case, unsuccessfull.
-- ``VII_stokes_inc_man.ipynb`` Derivation of methods to solve the incompressible NS equations.
+- ``VII_stokes_inc_man.ipynb`` Attempt to intuitively derivae a solver for NS equations, there are some bugs here.
 - ```VIII_stokes_inc_vort_stream.ipynb```Incompressible NS equations using the vortex stream method, this version does have some bugs.
 - 
 ![alt text](img/trajectories_attractors.png)
