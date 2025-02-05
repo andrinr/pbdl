@@ -5,9 +5,9 @@ I created this repo to understand and apply differentiable physics in the contex
 The project is grouped into different notebooks. 
 
 - ``preliminaries.ipynb`` A quick recap of different nabla operators and their numerical applications using finite differences.
-- ``I_verlet.ipynb`` A manually differentiated ODE integration method used to solve for initial conditions.
-- ``II_autodiff.ipynb`` The same thing but with autodiff and more complex forces.
-- ``III_thrust_vector.ipynb`` Optimizing the thrust vector control of a super simplified rocket model.
+- ``I_verlet.ipynb`` A manual implementation of reverse mode differentiation of an ODE integration scheme. Applied to optimize for initial conditions.
+- ``II_autodiff.ipynb`` The same thing but using autodiff as provided by JAX and more complex forces.
+- ``III_thrust_vector.ipynb`` Optimizing the thrust vector control of a simplified rocket model. Both for liquid, and the more interesting case of solid state rocket engines.
 - ``IV_hyperbolic.ipynb`` Derivation Advection and Lax Wendroff schemes, differentiable mac cormack for solving for the initial condition of the burgers equation.
 - ``V_waves.ipynb`` Differentiable mac cormack in 2D for the wave equation.
 - ``VI_stokes_incompressible.ipynb`` Forward implemenation compressible NS equations using Mac Cormack. Attempt at inverse case, unsuccessfull.
